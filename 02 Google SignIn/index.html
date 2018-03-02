@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Google Auth</title>
+      <meta charset="uft-8">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+         <nav class="red">
+            <a href="#" class="brand-logo center">Gmail4n</a>
+         </nav>
+       </header>
+       <div class="container">
+           <div class="form z-depth-1" align="center">
+             <img src="" alt="" id="profile" width="140px"><br>
+             <h4 class="grey-text" id="title">Iniciar session</h4>
+             <button class="btn orange" id="btnLogin">Ingresar</button>
+             <button class="btn purple" id="btnSignUp">Registrar</button>
+             <button class="btn red disabled" id="btnLogout">Salir</button>  
+           </div>
+       </div>
+       <script src="authGoogle.js"></script>
+    </body>
+</html>

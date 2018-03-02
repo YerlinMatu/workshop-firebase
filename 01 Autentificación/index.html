@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Autentificación</title>
+      <meta charset="uft-8">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+         <nav class="orange">
+            <a href="#" class="brand-logo center">Autentificación</a>
+         </nav>
+       </header>
+       <div class="container">
+           <div class="form z-depth-1">
+             <h4 class="grey-text">Login</h4>
+             <input type="email" placeholder="Email de usuario" id="txtEmail"/>
+             <input type="password" placeholder="Contraseña de usuario" id="txtPass"/>
+             <button class="btn orange" id="btnLogin">Ingresar</button>
+             <button class="btn purple" id="btnSignUp">Registrar</button>
+             <button class="btn red disabled" id="btnLogout">Salir</button>  
+           </div>
+       </div>
+       <script src="auth.js"></script>
+    </body>
+</html>
